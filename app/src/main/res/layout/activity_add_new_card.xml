@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AddNewCardActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAddNewCardClose"
+            android:layout_width="@dimen/margin_xxlarge"
+            android:layout_height="@dimen/margin_xxlarge"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:background="@android:color/transparent"
+            app:icon="@drawable/ic_baseline_close_white_24dp"
+            app:iconGravity="textStart"
+            app:iconTint="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvAddNewCardTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_add_new_card_title"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_heading_1x"
+            android:layout_below="@+id/btnAddNewCardClose"
+            android:layout_marginStart="@dimen/margin_medium_2"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCardNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:text="@string/lbl_card_number"
+            android:textStyle="bold"
+            android:layout_below="@id/tvAddNewCardTitle"
+            android:layout_marginStart="@dimen/margin_medium_2"
+            android:textSize="@dimen/text_regular_3x"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etCardNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCardNumber"
+            android:layout_marginStart="@dimen/margin_medium_2"
+            android:layout_marginEnd="@dimen/margin_medium_2"
+            android:hint="@string/lbl_enter_card_number" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCardHolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_card_holder"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:layout_below="@id/etCardNumber"
+            android:layout_marginStart="@dimen/margin_medium_2"
+            android:textSize="@dimen/text_regular_3x"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etCardHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCardHolder"
+            android:layout_marginStart="@dimen/margin_medium_2"
+            android:layout_marginEnd="@dimen/margin_medium_2"
+            android:hint="@string/lbl_enter_card_holder_name" />
+
+        <LinearLayout
+            android:layout_below="@id/etCardHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_medium_2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvExpirationDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_expiration_date"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/margin_medium_2"
+                android:textSize="@dimen/text_regular_3x"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etExpirationDate"
+                android:layout_width="match_parent"
+                android:hint="@string/lbl_date"
+                android:layout_marginEnd="@dimen/margin_medium_2"
+                android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvCvc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_title_cvc"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/margin_medium_2"
+                    android:textSize="@dimen/text_regular_3x"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/etCvc"
+                    android:layout_width="match_parent"
+                    android:hint="@string/lbl_cvc"
+                    android:layout_marginEnd="@dimen/margin_medium_2"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:id="@+id/btnAddnewCardConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium_3"
+            android:background="@drawable/confrim_button"
+            android:padding="@dimen/margin_medium_2">
+
+            <androidx.appcompat.widget.AppCompatTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:letterSpacing="0.05"
+                android:text="@string/lbl_confirm"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_regular_3x"
+                android:textStyle="bold" />
+
+
+        </FrameLayout>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

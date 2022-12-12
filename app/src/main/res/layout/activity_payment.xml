@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PaymentActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPaymentBack"
+            android:layout_width="@dimen/margin_xxlarge"
+            android:layout_height="@dimen/margin_xxlarge"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:background="@android:color/transparent"
+            app:icon="@drawable/ic_baseline_arrow_back_ios_white_24dp"
+            app:iconTint="@color/black" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvPaymentAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_payment_amount"
+            android:layout_below="@id/btnPaymentBack"
+            android:layout_marginStart="@dimen/margin_medium_2"
+            android:textSize="@dimen/text_regular_3x"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:textColor="@color/gray"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPaymentAmount"
+            android:layout_marginStart="@dimen/margin_medium_2"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:text="@string/lbl_dollar_amount"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_heading_1x"
+            android:textStyle="bold" />
+
+
+        <alirezat775.lib.carouselview.CarouselView
+            android:id="@+id/carouselRecyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:layout_below="@+id/tvAmount"
+            android:clipToPadding="false"
+            android:paddingHorizontal="@dimen/margin_medium_2"/>
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivAdd"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/carouselRecyclerview"
+            android:layout_marginStart="@dimen/margin_medium_2"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:src="@drawable/ic_baseline_add_circle_white_24dp"
+            android:tint="@color/total_sub_text_color" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvAddNewCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_add_new_card"
+            android:layout_toEndOf="@id/ivAdd"
+            android:layout_below="@id/carouselRecyclerview"
+            android:layout_marginStart="@dimen/margin_medium_2"
+            android:textSize="@dimen/text_regular_3x"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:textColor="@color/total_sub_text_color"/>
+
+
+        <FrameLayout
+            android:id="@+id/btnPaymentConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium_3"
+            android:background="@drawable/confrim_button"
+            android:padding="@dimen/margin_medium_2">
+
+            <androidx.appcompat.widget.AppCompatTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:letterSpacing="0.05"
+                android:text="@string/lbl_confirm"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_regular_3x"
+                android:textStyle="bold" />
+
+
+        </FrameLayout>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

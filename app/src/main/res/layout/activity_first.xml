@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color"
+    tools:context=".activities.FirstActivity">
+
+
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivIllustration"
+            android:layout_width="@dimen/logo_image_width"
+            android:layout_height="@dimen/logo_image_height"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="@dimen/margin_xxlarge"
+            android:src="@drawable/myillustraion" />
+
+
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lblWelcomeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_welcome"
+      android:layout_below="@id/ivIllustration"
+        android:layout_marginTop="@dimen/margin_xxlarge"
+        android:textColor="@color/white"
+       android:textStyle="bold"
+        android:letterSpacing="0.05"
+        android:textSize="@dimen/text_heading_1x"
+        android:layout_centerHorizontal="true"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvHelloGalaxyApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblWelcomeLabel"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:text="@string/lbl_hello_galaxy_app"/>
+
+    <RelativeLayout
+        android:id="@+id/btnGetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_medium_3"
+        android:background="@drawable/get_started_button"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:padding="@dimen/margin_medium"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/margin_medium"
+            android:text="@string/lbl_get_started"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_regular_3x"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

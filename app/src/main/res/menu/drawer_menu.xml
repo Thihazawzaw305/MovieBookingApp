@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_promotion_code"
+        android:icon="@drawable/coupon"
+        android:title="@string/lbl_promotion_code"
+
+        />
+
+
+    <item
+        android:id="@+id/nav_select_a_language"
+        android:icon="@drawable/language"
+        android:title="@string/lbl_select_a_language" />
+
+
+    <item
+        android:id="@+id/nav_tearm_of_services"
+        android:icon="@drawable/file"
+        android:title="@string/lbl_tearm_of_services" />
+
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/questionmark"
+        android:title="@string/lbl_help" />
+
+    <item
+        android:id="@+id/nav_rate_us"
+        android:icon="@drawable/star"
+        android:title="@string/lbl_rate_us" />
+
+
+</menu>

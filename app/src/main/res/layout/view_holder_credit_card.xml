@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="190dp"
+
+    android:background="@drawable/background_credit_card">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCardType"
+        android:layout_width="@dimen/margin_xxlarge"
+        android:layout_height="@dimen/margin_xxlarge"
+        android:layout_marginStart="@dimen/margin_medium_2"
+        android:text="@string/lbl_card_type"
+        android:textSize="@dimen/text_regular_3x"
+        android:paddingTop="@dimen/margin_medium"
+        android:textStyle="bold|italic"
+        android:textColor="@color/white"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="..."
+        android:layout_alignTop="@id/tvCardType"
+        android:layout_alignEnd="@id/tvCardType"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginEnd="@dimen/margin_medium_2"
+        android:textSize="@dimen/text_heading_1x"/>
+<!--    <androidx.appcompat.widget.AppCompatTextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="**** **** **** 8014"-->
+<!--        android:layout_below="@id/ivVisa"-->
+<!--        android:layout_alignStart="@id/ivVisa"-->
+<!--        android:textColor="@color/white"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tvCardType"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="@dimen/margin_medium_2"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:letterSpacing="0.2"
+            android:text="****"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_regular_3x" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:letterSpacing="0.2"
+            android:text="****"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_regular_3x" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:letterSpacing="0.2"
+            android:text="****"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_regular_3x" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCreditCardLastFourNumbers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:letterSpacing="0.1"
+            android:paddingBottom="@dimen/margin_small"
+            android:text="8014"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_regular_3x" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/margin_medium_2"
+        android:layout_marginHorizontal="@dimen/margin_medium_2"
+        android:layout_alignParentBottom="true"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CARD HOLDER"
+            android:gravity="center"
+            android:textSize="@dimen/text_regular"
+            android:letterSpacing="0.1"
+            android:textColor="@color/white"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCreditCardHolderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lily Johnson"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_small"
+            android:textSize="@dimen/text_regular_3x"
+            android:letterSpacing="0.1"
+            android:textColor="@color/white"
+          />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/margin_medium_2"
+        android:layout_marginHorizontal="@dimen/margin_medium_2"
+        android:layout_alignParentBottom="true"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXPIRES"
+            android:gravity="center"
+            android:textSize="@dimen/text_regular"
+            android:letterSpacing="0.1"
+            android:textColor="@color/white"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCreditCardExpiresDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="08/21"
+           android:layout_gravity="end"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_small"
+            android:textSize="@dimen/text_regular_2x"
+            android:letterSpacing="0.1"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

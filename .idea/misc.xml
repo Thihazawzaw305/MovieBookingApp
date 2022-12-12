@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/bacckground_movie_type.xml" value="0.154" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/backgroound_credit_card_selected.xml" value="0.1685" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/backgroound_credit_card_unselected.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_avaiable_circle.xml" value="0.168" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_circle.xml" value="0.166" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_circle_for_cast_image.xml" value="0.1685" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_credit_card.xml" value="0.1685" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_curved_line.xml" value="0.264" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_dottet_line.xml" value="0.166" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_minus_buttom.xml" value="0.166" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_movie_seat.xml" value="0.168" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_movie_seat_avaiable.xml" value="0.168" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_movie_seat_selected.xml" value="0.1685" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_movie_seat_taken.xml" value="0.168" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_play_button.xml" value="0.1515" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_plus.xml" value="0.1685" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_plus_buttom.xml" value="0.166" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_plus_minus_buttom.xml" value="0.1685" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_reserved_circle.xml" value="0.12" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_text_box.xml" value="0.166" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_time_chip.xml" value="0.2" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_time_chip_selected.xml" value="0.1685" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/background_your_section_circle.xml" value="0.168" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/collapsing_view.xml" value="0.152" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/confrim_button.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/get_started_button.xml" value="0.155" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/ic_baseline_add_circle_white_24dp.xml" value="0.168" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/ic_baseline_arrow_back_ios_white_24dp.xml" value="0.168" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/ic_baseline_close_white_24dp.xml" value="0.168" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/ic_baseline_credit_card_white_24dp.xml" value="0.168" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/ic_baseline_help_white_24dp.xml" value="0.1685" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/ic_baseline_local_offer_white_24dp.xml" value="0.168" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/ic_baseline_play_arrow_grey_24dp.xml" value="0.168" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/ic_baseline_play_circle_filled_white_24dp.xml" value="0.1515" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/ic_baseline_stars_white_24dp.xml" value="0.1695" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.155" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/login_button.xml" value="0.155" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/drawable/profile_holder_background.xml" value="0.10400000000000001" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/activity_add_new_card.xml" value="0.176" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/activity_first.xml" value="0.152" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/activity_get_ticket.xml" value="0.152" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/activity_login.xml" value="0.152" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/activity_main.xml" value="0.2557291666666667" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/activity_movie_choice.xml" value="0.176" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/activity_movie_details.xml" value="0.176" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/activity_payment.xml" value="0.152" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/activity_seat.xml" value="0.176" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/activity_sign_in.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/activity_snack.xml" value="0.176" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/activity_ticket.xml" value="0.176" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/background_your_section_circle.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/confirm_layout.xml" value="0.2557291666666667" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/fragment_login.xml" value="0.176" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/fragment_sign_in.xml" value="0.152" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/header_view.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_holder_card.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_holder_card_payment.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_holder_cast.xml" value="0.176" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_holder_cinema.xml" value="0.176" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_holder_credit_card.xml" value="0.264" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_holder_date.xml" value="0.176" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_holder_movie.xml" value="0.2557291666666667" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_holder_movie_genre.xml" value="0.176" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_holder_movie_seat.xml" value="0.176" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_holder_snack_set.xml" value="0.4" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_holder_time.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_holder_time_chip.xml" value="0.176" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_pod_cast_list.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_pod_cinema_list.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_pod_confrim.xml" value="0.16824324324324325" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_pod_date_list.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_pod_movie_genere_list.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_pod_movie_list.xml" value="0.152" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/layout/view_pod_time_chip.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/menu/drawer_menu.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/MyProject/MovieBookingApp/app/src/main/res/menu/menu_discover.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

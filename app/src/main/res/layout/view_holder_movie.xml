@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="@dimen/margin_medium_2">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvMovieImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/margin_medium_3"
+       >
+
+    <androidx.appcompat.widget.AppCompatImageView
+       android:id="@+id/ivMovieImage"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_below="@+id/tvNowShowing"
+        android:scaleType="centerCrop"
+        android:src="@drawable/supermarioposter" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvMovieName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cvMovieImage"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/margin_card_medium_2"
+        android:text="Super Mario"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_regular_2x"
+        android:textStyle="bold" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvMovieGenre"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/tvMovieName"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="@dimen/margin_small"-->
+<!--        android:text="mystery/Adventure"-->
+<!--        android:textColor="@color/secondary_text_color"-->
+<!--        android:textSize="12dp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvRunTime"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/tvMovieGenre"-->
+<!--        android:text="1h 45m"-->
+<!--        android:textColor="@color/secondary_text_color"-->
+<!--        android:textSize="12dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_centerInParent="true"/>-->
+</RelativeLayout>

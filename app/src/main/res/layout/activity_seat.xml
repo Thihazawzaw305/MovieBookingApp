@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SeatActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSeatBack"
+            android:layout_width="@dimen/margin_xxlarge"
+            android:layout_height="@dimen/margin_xxlarge"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:background="@android:color/transparent"
+            app:icon="@drawable/ic_baseline_arrow_back_ios_white_24dp"
+            app:iconTint="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSeatScreenMovieTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnSeatBack"
+            android:layout_centerHorizontal="true"
+            android:text="@string/lbl_movie_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_heading_1x"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSeatScreenCinemaName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSeatScreenMovieTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/lbl_cinema_name"
+            android:textSize="@dimen/text_regular_3x" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSeatScreenDateAndTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSeatScreenCinemaName"
+            android:layout_centerHorizontal="true"
+            android:text="@string/lbl_seat_screen_date_and_time"
+            android:textSize="@dimen/text_regular_3x" />
+
+        <FrameLayout
+            android:id="@+id/ivCinemaScreen"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/margin_xlarge"
+            android:layout_marginEnd="@dimen/margin_xlarge"
+            android:layout_below="@id/tvSeatScreenDateAndTime"
+>
+            <androidx.appcompat.widget.AppCompatImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-24dp"
+                android:layout_marginEnd="-24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/background_curved_line" />
+        </FrameLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvSeatingPlan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/margin_medium"
+            android:layout_below="@id/ivCinemaScreen"
+            android:layout_marginTop="@dimen/margin_medium_2" />
+
+
+        <LinearLayout
+            android:id="@+id/llSeatColorInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rvSeatingPlan"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:weightSum="3"
+            android:layout_marginHorizontal="@dimen/margin_medium_2"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivAvaiable"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/background_avaiable_circle"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="@dimen/margin_medium_2"
+                    android:layout_height="wrap_content"
+                    android:text="Avaiable"
+                    android:textSize="@dimen/text_regular"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivReverse"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/background_reserved_circle"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="@dimen/margin_medium_2"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_reserved"
+                    android:textSize="@dimen/text_regular"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivYourSelection"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/background_your_section_circle"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="@dimen/margin_medium_2"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_your_selection"
+                    android:textSize="@dimen/text_regular"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivSeatingScreenDottedLine"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="@dimen/margin_large"
+         android:layout_below="@id/llSeatColorInfo"
+            android:src="@drawable/background_dottet_line"
+            android:layout_gravity="center"
+            />
+        <LinearLayout
+            android:id="@+id/llTickets"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_below="@id/ivSeatingScreenDottedLine"
+            android:layout_marginStart="@dimen/margin_medium_2"
+            android:layout_marginEnd="@dimen/margin_medium_2"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvBTicketLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lbl_ticket"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/text_regular_3x"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTicketCount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_regular_2x"
+                android:gravity="end"
+                android:textColor="@color/black"
+                android:text="@string/lbl_ticket_count"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llSeats"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_below="@id/llTickets"
+            android:layout_marginStart="@dimen/margin_medium_2"
+            android:layout_marginEnd="@dimen/margin_medium_2"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvSeatLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lbl_seats"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/text_regular_3x"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvSeatCount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_regular_2x"
+                android:gravity="end"
+                android:textColor="@color/black"
+                android:text="@string/lbl_seats_row_and_numbers"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_below="@id/llSeats"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+
+
+
+    </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/btnSeatBuyTicket"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:elevation="@dimen/margin_medium_2"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="@dimen/margin_medium_2"
+        android:layout_marginEnd="@dimen/margin_medium_2"
+        android:layout_marginBottom="@dimen/margin_medium_2"
+        android:background="@drawable/confrim_button">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvBuyTicketFor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/lbl_buy_ticket_for"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_regular_3x"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
